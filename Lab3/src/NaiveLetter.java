@@ -1,3 +1,6 @@
+/**
+ * A strangely C-like reimplementation of toLower and toUpper for characters
+ */
 public class NaiveLetter {
     public static char toLower(char c) {
         if ('A' <= c && c <= 'Z') {

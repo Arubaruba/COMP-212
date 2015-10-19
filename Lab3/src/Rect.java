@@ -1,5 +1,5 @@
 /**
- * Created by Student on 10/19/2015.
+ * A rect with only the size and a global color for all instances
  */
 public class Rect {
     private double width = 1, height = 1;
@@ -29,6 +29,9 @@ public class Rect {
         Rect.color = color;
     }
 
+    /**
+     * Initializes a 1x1 rect
+     */
     Rect() {}
 
     Rect(double width, double height) {
@@ -36,10 +39,16 @@ public class Rect {
         this.height = height;
     }
 
+    /**
+     * @return the Area
+     */
     public double getArea() {
         return width * height;
     }
 
+    /**
+     * @return the Perimeter
+     */
     public double getPerimeter() {
         return 2 * (width + height);
     }
