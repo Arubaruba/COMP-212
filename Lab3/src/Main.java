@@ -11,6 +11,9 @@ public class Main {
         // Reverse
         System.out.println("reverse");
         System.out.println(reverse(1234));
+
+        Rect r = new Rect();
+        System.out.println(r.getArea());
     }
 
     public static int reverse(int num) {

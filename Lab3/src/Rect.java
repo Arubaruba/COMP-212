@@ -3,7 +3,7 @@
  */
 public class Rect {
     private double width = 1, height = 1;
-    private String color = "white";
+    private static String color = "white";
 
     public double getWidth() {
         return width;
@@ -21,12 +21,12 @@ public class Rect {
         this.height = height;
     }
 
-    public String getColor() {
-        return color;
+    public static String getColor() {
+        return Rect.color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public static void setColor(String color) {
+        Rect.color = color;
     }
 
     Rect() {}
