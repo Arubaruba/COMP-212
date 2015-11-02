@@ -15,7 +15,6 @@ class TLClassA { // (1) Top-level Class
 
     }
 
-
     class InnerB { // (2) Non-static Inner Class
 
         private String msg = "InnerB object ";
@@ -81,5 +80,4 @@ public class Client2 { // (11)
         TLClassA.InnerB.InnerC ccc =
                 new TLClassA("3").new InnerB("3").new InnerC("3"); // (20)
     }
-
 }

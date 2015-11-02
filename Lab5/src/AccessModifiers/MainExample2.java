@@ -12,7 +12,7 @@ public class MainExample2 {
 
     private static class Inner {
 
-        protected int k;
+        public int k;
 
     }
 
