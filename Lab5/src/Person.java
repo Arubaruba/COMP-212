@@ -30,7 +30,7 @@ public class Person {
         firstName = lastName = middleName = "";
     }
 
-    public Person(String firstName, String lastName, String middleName) {
+    public Person(String firstName, String middleName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
