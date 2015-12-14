@@ -6,7 +6,7 @@ public class TestScoreDemo {
     public static void main(String args[]) throws ScoreException {
         int numberOfScores = -1;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the number of scores you wish to enter:");
+        System.out.print("Please enter the number of scores you wish to enter:");
 
         numberOfScores = scanner.nextInt();
         while (numberOfScores < 0) {
@@ -18,6 +18,7 @@ public class TestScoreDemo {
         for (int i = 0; i < numberOfScores; i++) {
             System.out.print("Enter an ID: ");
             int id = scanner.nextInt();
+            System.out.print("Enter a score: ");
             int score = scanner.nextInt();
             try {
                 testScores[i] = new TestScore(id, score);
@@ -27,7 +28,7 @@ public class TestScoreDemo {
             }
         }
         for (int i = 0; i < numberOfScores; i++) {
-            
+            System.out.println(testScores[i].toString());
         }
     }
 }

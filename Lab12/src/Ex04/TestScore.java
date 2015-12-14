@@ -12,4 +12,9 @@ public class TestScore {
         }
         this.score = score;
     }
+
+    @Override
+    public String toString() {
+        return "Id: " + studentId + ", score: " + score + "%";
+    }
 }
