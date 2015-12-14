@@ -1,5 +1,6 @@
 /**
  * Uses speed and time to calculate distance traveled
+ *
  */
 public class Distance {
     private double speed;
